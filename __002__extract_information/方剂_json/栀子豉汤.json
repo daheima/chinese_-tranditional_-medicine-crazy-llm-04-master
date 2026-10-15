@@ -1,0 +1,58 @@
+{
+  "entities": [
+    {
+      "name": "栀子豉汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热除烦",
+        "indication": "发汗吐下后，余热郁于胸膈，身热懊憹，虚烦不得眠，胸脘痞闷，按之软而不痛，嘈杂似饥，但不欲食，舌质红，苔微黄，脉数。",
+        "usage": "以水400毫升，先煮栀子，得250毫升，纳鼓煮取150毫升，去滓，分为二服，温进一服，得吐，止后服。",
+        "alias": null,
+        "taboo": null
+      }
+    },
+    {
+      "name": "栀子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "泄热除烦，降中有宣",
+        "property_flavor": "苦寒",
+        "processing": "擘"
+      }
+    },
+    {
+      "name": "香豉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4克",
+        "effect": "升散调中，宜中有降",
+        "property_flavor": "气寒",
+        "processing": "绵裹"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "栀子豉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栀子豉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香豉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栀子豉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热除烦",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "entities": [
+    {
+      "name": "引火汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "水火既济",
+        "indication": "阴蛾",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "熟地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3两",
+        "effect": "大补其肾水",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "巴戟天",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两",
+        "effect": "温，水火既济",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱",
+        "effect": "前导，水火同趋",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两",
+        "effect": "重滋其肺金",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "北五味子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱",
+        "effect": "重滋其肺金",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "阴蛾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "少阴肾火上炎",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "日轻夜重",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "喉间亦长成蛾",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "宛如阳症",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "不甚痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽喉之际自觉一线干燥之至",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "饮水咽之稍快",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "水入腹而腹又不安",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "吐涎如水甚多",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "引火汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴蛾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "引火汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "引火汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "巴戟天",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "引火汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "引火汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "引火汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "北五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阴蛾",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "少阴肾火上炎",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阴蛾",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阴蛾",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "日轻夜重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阴蛾",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "喉间亦长成蛾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阴蛾",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "宛如阳症",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阴蛾",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "不甚痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阴蛾",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咽喉之际自觉一线干燥之至",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阴蛾",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "饮水咽之稍快",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阴蛾",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "水入腹而腹又不安",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阴蛾",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "吐涎如水甚多",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "name": "猪肤汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热除烦，益津止痛，兼养胃气",
+        "indication": "咽部红肿不甚，疼痛较轻，伴见咽干咽痒，甚或呛咳少痰，或见下利胸满心烦",
+        "taboo": null,
+        "usage": "上以水1斗，煮取5升，去滓，加白蜜1升，白粉5合，熬香，和令相得。分6次温服"
+      }
+    },
+    {
+      "name": "猪皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一斤",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5合",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白蜜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1升",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猪肤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热除烦，益津止痛，兼养胃气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪肤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猪肤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猪肤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白蜜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猪肤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽部红肿不甚",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪肤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疼痛较轻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪肤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽干咽痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪肤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呛咳少痰",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪肤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "下利胸满心烦",
+      "object_type": "Symptom"
+    }
+  ]
+}

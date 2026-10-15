@@ -1,0 +1,63 @@
+{
+  "entities": [
+    {
+      "name": "小半夏汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "化痰散饮，和胃降逆",
+        "indication": "痰饮内停，心下痞闷，呕吐不渴，及胃寒呕吐，痰饮咳嗽",
+        "taboo": null,
+        "usage": "上二味。用水700毫升，煮取300毫升，分两次温服"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    }
+  ]
+}

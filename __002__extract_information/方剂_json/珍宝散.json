@@ -1,0 +1,98 @@
+{
+  "entities": [
+    {
+      "name": "珍宝散",
+      "type": "Formula",
+      "attributes": {
+        "source": "https://zhongyibaike.com/wiki/珍宝散"
+      }
+    },
+    {
+      "name": "珍珠",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "硼砂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "青黛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "人中白",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "processing": "煅过"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "珍宝散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "珍珠",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍宝散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "硼砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍宝散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青黛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍宝散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍宝散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍宝散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人中白",
+      "object_type": "Herb"
+    }
+  ]
+}

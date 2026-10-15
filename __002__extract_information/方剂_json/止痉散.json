@@ -1,0 +1,26 @@
+{
+  "entities": [
+    {
+      "name": "止痉散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "",
+        "indication": "乙脑抽搐不止。四肢抽搐，痉厥，以及顽固性头痛、偏头痛、关节痛。"
+      }
+    },
+    {
+      "name": "《流行性乙型脑炎中医治疗法》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "止痉散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《流行性乙型脑炎中医治疗法》",
+      "object_type": "Source"
+    }
+  ]
+}

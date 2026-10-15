@@ -1,0 +1,32 @@
+{
+  "entities": [
+    {
+      "name": "一物瓜蒂汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "泻水湿停饮",
+        "indication": "太阳中暍，身热疼重，而脉微弱，此以夏月伤冷水，水行皮中所致，身面四肢浮肿"
+      }
+    },
+    {
+      "name": "https://zhongyibaike.com/wiki/一物瓜蒂汤",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "一物瓜蒂汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "泻水湿停饮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "一物瓜蒂汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/一物瓜蒂汤",
+      "object_type": "Source"
+    }
+  ]
+}

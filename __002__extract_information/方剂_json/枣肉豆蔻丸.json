@@ -1,0 +1,121 @@
+{
+  "entities": [
+    {
+      "name": "枣肉豆蔻丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "补脾止泻",
+        "indication": "脾虚泄泻",
+        "usage": "每服30丸，沸汤送下，不拘时候"
+      }
+    },
+    {
+      "name": "丁香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "不见火"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "place": "去芦"
+      }
+    },
+    {
+      "name": "肉豆蔻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "processing": "面襄煨"
+      }
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "place": "去皮"
+      }
+    },
+    {
+      "name": "钟乳粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "脾虚泄泻",
+      "type": "Disease"
+    },
+    {
+      "name": "补脾",
+      "type": "Effect"
+    },
+    {
+      "name": "止泻",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "枣肉豆蔻丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丁香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枣肉豆蔻丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枣肉豆蔻丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枣肉豆蔻丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枣肉豆蔻丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "钟乳粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枣肉豆蔻丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枣肉豆蔻丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枣肉豆蔻丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "止泻",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "name": "照水丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": "点水丹"
+      }
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "海螵蛸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "照水丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "照水丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "照水丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海螵蛸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "照水丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "目翳",
+      "object_type": "Disease"
+    }
+  ]
+}

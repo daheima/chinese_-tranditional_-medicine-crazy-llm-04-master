@@ -1,0 +1,302 @@
+{
+  "entities": [
+    {
+      "name": "再造散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "补气助阳，疏风散寒，解表祛邪，佐制合营，温胃滋脾，升腾脾胃生发之气，调营卫而资汗源",
+        "indication": "阳气虚弱，外感风寒。恶寒发热，热轻寒重，无汗肢冷，倦怠嗜卧，面色苍白，语言低微，舌淡苔白，脉沉无力，或浮大无力"
+      }
+    },
+    {
+      "name": "《伤寒六书》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "熟附子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "细辛",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "煨生姜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "赤芍",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "恶寒发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "热轻寒重",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "无汗肢冷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "倦怠嗜卧",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "面色苍白",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "语言低微",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌淡苔白",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉沉无力",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "浮大无力",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "阳气虚弱",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "外感风寒",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "再造散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒六书》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "再造散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "再造散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "再造散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "再造散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "再造散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "再造散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "细辛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "再造散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "再造散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "再造散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "再造散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "煨生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "再造散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "再造散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "再造散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阳气虚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "再造散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "外感风寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "阳气虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "恶寒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳气虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "热轻寒重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳气虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "无汗肢冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳气虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "倦怠嗜卧",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳气虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "面色苍白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳气虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "语言低微",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳气虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌淡苔白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳气虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉沉无力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳气虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "浮大无力",
+      "object_type": "Symptom"
+    }
+  ]
+}

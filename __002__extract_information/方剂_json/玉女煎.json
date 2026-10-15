@@ -1,0 +1,185 @@
+{
+  "entities": [
+    {
+      "name": "玉女煎",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋阴降火",
+        "indication": "水亏火盛，六脉浮洪滑大，少阴不足，阳明有余，烦热干渴，头痛牙疼，失血。现用于急性口腔炎、舌炎，三叉神经痛等属于胃热阴亏者",
+        "taboo": null,
+        "usage": "用水300毫升，煎至200毫升，温服或冷服。如火盛极者，加栀子、地骨皮之属，多汗多渴者，加北五味14粒；小水不利或火不能降者，加泽泻4.5克，或茯苓亦可；如金水俱亏，因精损气者，加人参6～9克"
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "熟地",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《景岳全书》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "滋阴降火",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "急性口腔炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "舌炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "三叉神经痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "烦热干渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "牙疼",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "失血",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "玉女煎",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《景岳全书》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "玉女煎",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴降火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玉女煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉女煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉女煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉女煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉女煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉女煎",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性口腔炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉女煎",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "舌炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉女煎",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "三叉神经痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉女煎",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦热干渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玉女煎",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玉女煎",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙疼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玉女煎",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失血",
+      "object_type": "Symptom"
+    }
+  ]
+}

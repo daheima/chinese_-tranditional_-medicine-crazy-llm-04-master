@@ -1,0 +1,317 @@
+{
+  "entities": [
+    {
+      "name": "宣痹汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "湿热痹证。湿聚热蒸，阻于经络，寒战发热，骨节烦疼，面色痿黄，小便短赤，舌苔黄腻或灰滞，面目痿黄。",
+        "taboo": null,
+        "usage": "上药用水1.6升，煮取600毫升，分三次温服。"
+      }
+    },
+    {
+      "name": "防己",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克（五钱）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克（五钱）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "滑石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克（五钱）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克（三钱）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "山栀",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克（三钱）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "薏苡仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克（五钱）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克（三钱）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "醋炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "晚蚕沙",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克（三钱）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "赤小豆皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克（三钱）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "片姜黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "海桐皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "上海中医药大学",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "宣痹汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热痹证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "宣痹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防己",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "宣痹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "宣痹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "宣痹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "宣痹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山栀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "宣痹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薏苡仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "宣痹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "宣痹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "晚蚕沙",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "宣痹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤小豆皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "湿热痹证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "寒战发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿热痹证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "骨节烦疼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿热痹证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "面色痿黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿热痹证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "小便短赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿热痹证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌苔黄腻或灰滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿热痹证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "面目痿黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "宣痹汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "上海中医药大学",
+      "object_type": "Source"
+    }
+  ]
+}

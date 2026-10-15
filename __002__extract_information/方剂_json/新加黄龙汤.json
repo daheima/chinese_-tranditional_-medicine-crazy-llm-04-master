@@ -1,0 +1,239 @@
+{
+  "entities": [
+    {
+      "name": "新加黄龙汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "热结里实，气阴不足证",
+        "indication": "大便秘结，腹中胀满而硬，神倦少气，口干咽燥，唇裂舌焦，苔焦黄或焦黑燥裂",
+        "taboo": null,
+        "usage": "以水八杯，煮取三杯。先用一朴，冲参汁上分，姜汁二匙，顿服之。如腹中有响声，或转矢气者，为欲便也，候一二时不便，再如前法"
+      }
+    },
+    {
+      "name": "细生地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "生甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克",
+        "processing": "另煎"
+      }
+    },
+    {
+      "name": "生大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "芒硝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "玄参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "海参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2条",
+        "processing": "洗"
+      }
+    },
+    {
+      "name": "姜汁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6匙"
+      }
+    },
+    {
+      "name": "大便秘结",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹中胀满而硬",
+      "type": "Symptom"
+    },
+    {
+      "name": "神倦少气",
+      "type": "Symptom"
+    },
+    {
+      "name": "口干咽燥",
+      "type": "Symptom"
+    },
+    {
+      "name": "唇裂舌焦",
+      "type": "Symptom"
+    },
+    {
+      "name": "苔焦黄或焦黑燥裂",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "新加黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "细生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "新加黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "新加黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "新加黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "新加黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芒硝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "新加黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "新加黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "新加黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "新加黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "新加黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "姜汁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "新加黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "热结里实，气阴不足证",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "新加黄龙汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便秘结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "新加黄龙汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹中胀满而硬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "新加黄龙汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神倦少气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "新加黄龙汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口干咽燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "新加黄龙汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "唇裂舌焦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "新加黄龙汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "苔焦黄或焦黑燥裂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "新加黄龙汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/新加黄龙汤",
+      "object_type": "Source"
+    }
+  ]
+}

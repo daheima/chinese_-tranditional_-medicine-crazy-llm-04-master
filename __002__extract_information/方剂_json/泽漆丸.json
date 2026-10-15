@@ -1,0 +1,200 @@
+{
+  "entities": [
+    {
+      "name": "泽漆丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "食症癖气，脾胃虚弱，头面及四肢浮肿，欲变成水病者",
+        "taboo": null,
+        "usage": "每服以温水送下20丸，一日三至四次"
+      }
+    },
+    {
+      "name": "泽漆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "陈橘皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "川大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "郁李仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "《太平圣惠方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "脾胃虚弱",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头面及四肢浮肿",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "泽漆丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《太平圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "泽漆丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽漆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槟榔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈橘皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "郁李仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "食症癖气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "食症癖气",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脾胃虚弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "食症癖气",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "头面及四肢浮肿",
+      "object_type": "Symptom"
+    }
+  ]
+}

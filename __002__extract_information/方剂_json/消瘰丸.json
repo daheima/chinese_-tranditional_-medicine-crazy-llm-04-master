@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "name": "消瘰丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": "消疠丸",
+        "effect": "清热滋阴，化痰散结",
+        "indication": "肝肾阴亏所致的瘰疠",
+        "usage": "每服9克，开水下，日二服"
+      }
+    },
+    {
+      "name": "元参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120克",
+        "property_flavor": "蒸"
+      }
+    },
+    {
+      "name": "牡蛎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120克",
+        "processing": "煅，醋研"
+      }
+    },
+    {
+      "name": "贝母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120克",
+        "property_flavor": "去心，蒸"
+      }
+    },
+    {
+      "name": "《疡医大全》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "消瘰丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《疡医大全》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "消瘰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热滋阴，化痰散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "消瘰丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疠",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "消瘰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "元参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "消瘰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "消瘰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "贝母",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "entities": [
+    {
+      "name": "犀角地黄汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热解毒，凉血散瘀",
+        "indication": "温热病热入血分证；各种失血，斑色紫黑，神昏谵语，身热舌绛；重症肝炎、肝昏迷、弥漫性血管内凝血、尿毒症、过敏性紫癜、血小板减少性紫癜、蛛网膜下腔出血、急性白血病、败血症、流行性脑脊髓膜炎、流行性出血热等属血分热盛者",
+        "taboo": "阳虚失血，脾胃虚弱者忌用",
+        "usage": "作汤剂，水煎服，水牛角镑片先煎，余药后下。以水九升，煮取三升，分三服"
+      }
+    },
+    {
+      "name": "水牛角",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "生地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "《小品方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《外台秘要》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "犀角地黄汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《小品方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "犀角地黄汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《外台秘要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "犀角地黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "水牛角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "犀角地黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "犀角地黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "犀角地黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "犀角地黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，凉血散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "犀角地黄汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "温热病热入血分证",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "entities": [
+    {
+      "name": "旋覆代赭汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "旋覆代赭用人参，半夏姜甘大枣随，重以镇逆咸软痞，痞硬噫气力能禁",
+        "effect": "降逆下气，化痰",
+        "indication": "胃气虚弱，痰浊内阻，胃气上逆而致的胃脘痞闷、嗳气、呃逆、呕吐等证",
+        "usage": "旋复花9克、代赭石15克、党参12克、炙甘草6克、半夏9克、生姜9克、大枣4枚"
+      }
+    },
+    {
+      "name": "旋覆花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "下气化痰",
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "代赭石",
+      "type": "Herb",
+      "attributes": {
+        "effect": "降逆下气",
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "党参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4枚"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "旋覆代赭汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "旋覆花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "旋覆代赭汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "代赭石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "旋覆代赭汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "党参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "旋覆代赭汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "旋覆代赭汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "旋覆代赭汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "旋覆代赭汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "旋覆代赭汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "降逆下气，化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "旋覆代赭汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胃气虚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胃气虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胃脘痞闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胃气虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "嗳气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胃气虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "呃逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胃气虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    }
+  ]
+}

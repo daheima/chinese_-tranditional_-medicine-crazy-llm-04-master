@@ -1,0 +1,223 @@
+{
+  "entities": [
+    {
+      "name": "掌胃膏",
+      "type": "Formula",
+      "attributes": {
+        "effect": "益气健脾，温中止泻",
+        "indication": "小儿脾胃虚弱，呕吐泄泻",
+        "usage": "每服1丸，空腹时用米汤化下，日进二服。"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "肉豆蔻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白豆蔻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "沉香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "枇杷叶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "青皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "丁香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "草豆蔻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "藿香叶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "缩砂仁",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "掌胃膏",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "益气健脾，温中止泻",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "掌胃膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿脾胃虚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小儿脾胃虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "呕吐泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "掌胃膏",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "掌胃膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "掌胃膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "掌胃膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "掌胃膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "掌胃膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "掌胃膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "掌胃膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "掌胃膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沉香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "掌胃膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枇杷叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "掌胃膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "掌胃膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丁香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "掌胃膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "草豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "掌胃膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "掌胃膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "藿香叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "掌胃膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "缩砂仁",
+      "object_type": "Herb"
+    }
+  ]
+}

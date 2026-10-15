@@ -1,0 +1,165 @@
+{
+  "entities": [
+    {
+      "name": "增损柴胡汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "妇人产后虚羸，发寒热，食少腹胀",
+        "taboo": null,
+        "usage": "每服9克，用水350毫升，加生姜5片，大枣2枚，煎至220毫升，去滓，食后温服，一日二次"
+      }
+    },
+    {
+      "name": "《类证活人书》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3分"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3分",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3分",
+        "processing": "汤泡"
+      }
+    },
+    {
+      "name": "白芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3分"
+      }
+    },
+    {
+      "name": "陈橘皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3分"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3分"
+      }
+    },
+    {
+      "name": "产后虚羸",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "发寒热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "食少腹胀",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "增损柴胡汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《类证活人书》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "增损柴胡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损柴胡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损柴胡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损柴胡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损柴胡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损柴胡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈橘皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损柴胡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损柴胡汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "产后虚羸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "产后虚羸",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "发寒热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "产后虚羸",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "食少腹胀",
+      "object_type": "Symptom"
+    }
+  ]
+}

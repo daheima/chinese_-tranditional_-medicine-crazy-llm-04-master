@@ -1,0 +1,62 @@
+{
+  "entities": [
+    {
+      "name": "枳术丸",
+      "type": "Formula",
+      "attributes": {
+        "indication": "脾胃虚弱，食少不化，脘腹痞满"
+      }
+    },
+    {
+      "name": "枳实(炒)",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "250g"
+      }
+    },
+    {
+      "name": "白术(炒)",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "500g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "枳术丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实(炒)",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳术丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术(炒)",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳术丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃虚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳术丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食少不化",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳术丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹痞满",
+      "object_type": "Symptom"
+    }
+  ]
+}

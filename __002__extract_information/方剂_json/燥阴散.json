@@ -1,0 +1,125 @@
+{
+  "entities": [
+    {
+      "name": "燥阴散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "疝气因湿而成，阴汗瘙痒",
+        "taboo": null,
+        "usage": "每服6克、空腹时盐、酒调下"
+      }
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "青皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "乌药",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "山楂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "吴萸",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "小茴",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "橘核",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "青木香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "疝气",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "燥阴散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "燥阴散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "燥阴散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "燥阴散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山楂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "燥阴散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "吴萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "燥阴散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "小茴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "燥阴散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "橘核",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "燥阴散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "燥阴散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "疝气",
+      "object_type": "Disease"
+    }
+  ]
+}

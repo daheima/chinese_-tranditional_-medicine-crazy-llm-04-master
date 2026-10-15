@@ -1,0 +1,40 @@
+{
+  "entities": [
+    {
+      "name": "左金丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": "回令丸、萸连丸、茱连丸、佐金丸、二味左金丸",
+        "effect": "清肝泻火，降逆止呕",
+        "indication": "肝火犯胃，脘胁疼痛，口苦嘈杂，呕吐酸水，不喜热饮",
+        "usage": "口服，一次3～6g,一日2 次"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "吴茱萸",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "左金丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "左金丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "吴茱萸",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "entities": [
+    {
+      "name": "杖疮珍珠散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "散瘀消肿，止血敛疮",
+        "indication": "治杖伤，刀斧砍伤",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "珍珠",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "入豆腐内，煮至豆腐起蜂窝时取出，研之",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "乳香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去油",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "海螵蛸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "水飞",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "琥珀",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "象皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炒黄",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "没药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去油",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "龙骨",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "火煅红",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "儿茶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "轻粉",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "血竭",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "杖疮珍珠散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀消肿，止血敛疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "杖疮珍珠散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "杖伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "杖疮珍珠散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "刀斧砍伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "杖疮珍珠散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "珍珠",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杖疮珍珠散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杖疮珍珠散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海螵蛸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杖疮珍珠散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "琥珀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杖疮珍珠散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "象皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杖疮珍珠散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杖疮珍珠散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杖疮珍珠散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "儿茶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杖疮珍珠散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "轻粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杖疮珍珠散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "血竭",
+      "object_type": "Herb"
+    }
+  ]
+}

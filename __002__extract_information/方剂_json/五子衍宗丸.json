@@ -1,0 +1,222 @@
+{
+  "entities": [
+    {
+      "name": "五子衍宗丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "补肾固精",
+        "indication": "肾虚遗精、阳痿早泄、小便后余沥不清、久不生育，及气血两虚、须发早白",
+        "taboo": "惯遗泄者，去车前子，加莲子",
+        "usage": "上为细末，炼蜜为丸，如梧桐子大。空腹时服90丸，睡前服50丸，温开水或淡盐汤送下，冬月用温酒送下"
+      }
+    },
+    {
+      "name": "枸杞子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "240克",
+        "effect": "补肾阳，益精血"
+      }
+    },
+    {
+      "name": "菟丝子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "240克",
+        "effect": "补肾阳，益精血"
+      }
+    },
+    {
+      "name": "北五味子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "effect": "补肾固涩"
+      }
+    },
+    {
+      "name": "覆盆子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120克",
+        "effect": "补肾固涩"
+      }
+    },
+    {
+      "name": "车前子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "effect": "补肝肾"
+      }
+    },
+    {
+      "name": "肾虚",
+      "type": "Disease"
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom"
+    },
+    {
+      "name": "阳痿早泄",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便后余沥不清",
+      "type": "Symptom"
+    },
+    {
+      "name": "久不生育",
+      "type": "Symptom"
+    },
+    {
+      "name": "气血两虚",
+      "type": "Disease"
+    },
+    {
+      "name": "须发早白",
+      "type": "Symptom"
+    },
+    {
+      "name": "《摄生众妙方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "五子衍宗丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《摄生众妙方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "五子衍宗丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枸杞子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五子衍宗丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菟丝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五子衍宗丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "北五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五子衍宗丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "覆盆子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五子衍宗丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "车前子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五子衍宗丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补肾固精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "五子衍宗丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五子衍宗丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "气血两虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五子衍宗丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五子衍宗丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳痿早泄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五子衍宗丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便后余沥不清",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五子衍宗丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久不生育",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五子衍宗丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "须发早白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枸杞子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾阳，益精血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "菟丝子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾阳，益精血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "北五味子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾固涩",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾固涩",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "车前子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肝肾",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "entities": [
+    {
+      "name": "泻青丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "散泻肝火",
+        "indication": "肝火郁热，不能安卧，多惊多怒，筋痿不起，目赤肿痛"
+      }
+    },
+    {
+      "name": "龙胆草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "苦寒厚味，沉阴下行，直入厥阴而散泻之"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "effect": "善散，搜肝风而散肝火"
+      }
+    },
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": {
+        "effect": "气雄，搜肝风而散肝火"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "effect": "上行头目而逐风邪，养血润燥"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "effect": "养肝血而润肝燥"
+      }
+    },
+    {
+      "name": "山栀",
+      "type": "Herb",
+      "attributes": {
+        "effect": "散三焦郁火，使邪热从小便下行"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "泻青丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙胆草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻青丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻青丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻青丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻青丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻青丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻青丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山栀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻青丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝火郁热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "泻青丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不能安卧",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泻青丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "多惊多怒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泻青丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋痿不起",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泻青丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "name": "栀子大黄汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清心除烦，除积泄热",
+        "indication": "心中懊挵疼痛，尚有身热，心烦不眠，大便难，小便黄赤，身黄如橘子色等",
+        "usage": "上四味，以水600毫升，煮取200毫升，分三次温服"
+      }
+    },
+    {
+      "name": "栀子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "豆豉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "栀子大黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栀子大黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栀子大黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栀子大黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "豆豉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栀子大黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清心除烦，除积泄热",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "name": "皂刺散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "宣毒排脓",
+        "indication": "痈疽初起或已溃者",
+        "usage": "每服12克，用酒400毫升，煎取240毫升，入乳香少许，温服"
+      }
+    },
+    {
+      "name": "皂角刺",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "栝楼",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "北五灵脂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "宣毒排脓",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "痈疽",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "皂刺散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "皂角刺",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "皂刺散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栝楼",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "皂刺散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "北五灵脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "皂刺散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "宣毒排脓",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "皂刺散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "皂刺散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/皂刺散",
+      "object_type": "Source"
+    }
+  ]
+}

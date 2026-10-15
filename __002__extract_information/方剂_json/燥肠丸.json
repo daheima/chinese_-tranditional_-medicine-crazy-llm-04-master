@@ -1,0 +1,96 @@
+{
+  "entities": [
+    {
+      "name": "燥肠丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治伤寒汗下后，大小便自利，膻中痛者",
+        "taboo": "利止勿服",
+        "usage": "每服30丸，温水下"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "龙骨",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "吴茱萸",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "米壳",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "诃黎勒皮",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "燥肠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "燥肠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "燥肠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "燥肠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "吴茱萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "燥肠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "米壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "燥肠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "诃黎勒皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "燥肠丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒",
+      "object_type": "Disease"
+    }
+  ]
+}

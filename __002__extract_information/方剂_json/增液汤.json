@@ -1,0 +1,96 @@
+{
+  "entities": [
+    {
+      "name": "增液汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "增水行舟",
+        "indication": "阳明温病，津亏便秘证。大便秘结，口渴，舌干红，脉细数或沉而无力者"
+      }
+    },
+    {
+      "name": "玄参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24g"
+      }
+    },
+    {
+      "name": "生地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24g"
+      }
+    },
+    {
+      "name": "增液承气汤",
+      "type": "Formula",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "增液汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增液汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增液汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增液汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "增水行舟",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "增液汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阳明温病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "增液汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便秘结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "增液汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "增液汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌干红",
+      "object_type": "Symptom"
+    }
+  ]
+}

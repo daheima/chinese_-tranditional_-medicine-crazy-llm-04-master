@@ -1,0 +1,252 @@
+{
+  "entities": [
+    {
+      "name": "珍珠母丸",
+      "type": "Formula",
+      "attributes": {
+        "usage": "制蜜丸如悟桐子大，辰砂为衣，每服40-50丸，金银花、薄荷汤下。",
+        "indication": "神志不宁，入夜少寐，时而惊悸，头目眩晕，脉细弦等。",
+        "taboo": "对纯属痰热、痰火为患的惊悸、少寐之症不适用。"
+      }
+    },
+    {
+      "name": "珍珠母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g"
+      }
+    },
+    {
+      "name": "酸枣仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g"
+      }
+    },
+    {
+      "name": "柏子仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g"
+      }
+    },
+    {
+      "name": "龙齿",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "熟地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "茯神",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "沉香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "犀角",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1g"
+      }
+    },
+    {
+      "name": "辰砂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1g"
+      }
+    },
+    {
+      "name": "金银花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1g"
+      }
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1g"
+      }
+    },
+    {
+      "name": "神志不宁",
+      "type": "Symptom"
+    },
+    {
+      "name": "入夜少寐",
+      "type": "Symptom"
+    },
+    {
+      "name": "惊悸",
+      "type": "Symptom"
+    },
+    {
+      "name": "头目眩晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉细弦",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "珍珠母丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "珍珠母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠母丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "酸枣仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠母丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柏子仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠母丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙齿",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠母丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠母丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠母丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠母丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯神",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠母丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沉香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠母丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "犀角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠母丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "辰砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠母丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "金银花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠母丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠母丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神志不宁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠母丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "入夜少寐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠母丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊悸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠母丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头目眩晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠母丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉细弦",
+      "object_type": "Symptom"
+    }
+  ]
+}

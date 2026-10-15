@@ -1,0 +1,164 @@
+{
+  "entities": [
+    {
+      "name": "增损启膈散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "化痰软坚，活血散瘀",
+        "indication": "痰瘀互结",
+        "taboo": null,
+        "usage": "水煎服，每日1剂，日服2次"
+      }
+    },
+    {
+      "name": "川贝母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "郁金",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "沙参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "蜣螂虫",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "急性子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "昆布",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "丹参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "海藻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "红花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "增损启膈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损启膈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "郁金",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损启膈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损启膈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沙参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损启膈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蜣螂虫",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损启膈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "急性子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损启膈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "昆布",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损启膈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损启膈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海藻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损启膈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损启膈散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "化痰软坚，活血散瘀",
+      "object_type": "Effect"
+    }
+  ]
+}

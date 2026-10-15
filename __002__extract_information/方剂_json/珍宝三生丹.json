@@ -1,0 +1,167 @@
+{
+  "entities": [
+    {
+      "name": "珍宝三生丹",
+      "type": "Formula",
+      "attributes": {
+        "usage": "每服100丸，茶、酒任下。"
+      }
+    },
+    {
+      "name": "火麻仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克"
+      }
+    },
+    {
+      "name": "山萸肉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克"
+      }
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克"
+      }
+    },
+    {
+      "name": "菟丝子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克"
+      }
+    },
+    {
+      "name": "枳壳（炒）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克"
+      }
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克"
+      }
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克"
+      }
+    },
+    {
+      "name": "郁李仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "105克"
+      }
+    },
+    {
+      "name": "车前子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "105克"
+      }
+    },
+    {
+      "name": "独活",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "105克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "珍宝三生丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "火麻仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍宝三生丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍宝三生丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山萸肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍宝三生丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍宝三生丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菟丝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍宝三生丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳（炒）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍宝三生丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槟榔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍宝三生丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍宝三生丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "郁李仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍宝三生丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "车前子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍宝三生丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "独活",
+      "object_type": "Herb"
+    }
+  ]
+}

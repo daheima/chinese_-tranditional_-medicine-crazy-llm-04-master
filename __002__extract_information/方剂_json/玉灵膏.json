@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "玉灵膏",
+      "type": "Formula",
+      "attributes": {
+        "effect": "补气血，安神益智，益气养阴，生津止渴",
+        "indication": "年迈体弱，神疲体倦，心悸怔忡，食欲不振；病后血虚气弱，四肢乏力，头昏，面色萎黄；孕妇体弱，精神萎靡，纳谷欠佳"
+      }
+    },
+    {
+      "name": "龙眼肉",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益心脾，补气血，安神益智",
+        "property_flavor": "甘温"
+      }
+    },
+    {
+      "name": "西洋参",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益气养阴，生津止渴",
+        "property_flavor": "甘寒"
+      }
+    },
+    {
+      "name": "《医学衷中参西录》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "玉灵膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙眼肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉灵膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "西洋参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉灵膏",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补气血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玉灵膏",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "安神益智",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玉灵膏",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "益气养阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玉灵膏",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "生津止渴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龙眼肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益心脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龙眼肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补气血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龙眼肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "安神益智",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "西洋参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气养阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "西洋参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生津止渴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "西洋参",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医学衷中参西录》",
+      "object_type": "Source"
+    }
+  ]
+}

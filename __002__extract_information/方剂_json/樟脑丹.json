@@ -1,0 +1,54 @@
+{
+  "entities": [
+    {
+      "name": "樟脑丹",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治瘰疬溃烂",
+        "usage": "先用荆芥根下一段剪碎，煎沸汤温洗。良久看烂破处紫黑，以针一刺去血，再洗三四次，然后用樟脑、雄黄末，麻油调，扫上水出，次日再洗再扫，以愈为度。"
+      }
+    },
+    {
+      "name": "樟脑",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "雄黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "樟脑丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樟脑丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "樟脑",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "樟脑丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "雄黄",
+      "object_type": "Herb"
+    }
+  ]
+}

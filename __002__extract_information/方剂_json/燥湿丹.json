@@ -1,0 +1,12 @@
+{
+  "entities": [
+    {
+      "name": "燥湿丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": null
+      }
+    }
+  ],
+  "relations": []
+}

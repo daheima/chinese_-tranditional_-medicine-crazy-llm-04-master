@@ -1,0 +1,158 @@
+{
+  "entities": [
+    {
+      "name": "玉真散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "祛风化痰",
+        "indication": "破伤风",
+        "taboo": "津气两虚者不宜使用；孕妇忌用",
+        "usage": "上为末，每服二钱，热酒一盅调服，更敷患处；若牙关紧闭，腰背反张者，每次服三钱，用热童便送服；现代用法：为细末，过筛，混匀，每服3g，用热酒或童便调服；外用适量，敷患处"
+      }
+    },
+    {
+      "name": "天南星",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "各等分(各6g)",
+        "taboo": "有毒"
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "各等分(各6g)"
+      }
+    },
+    {
+      "name": "白芷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "各等分(各6g)"
+      }
+    },
+    {
+      "name": "天麻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "各等分(各6g)"
+      }
+    },
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "各等分(各6g)"
+      }
+    },
+    {
+      "name": "白附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "各等分(各6g)",
+        "taboo": "有毒"
+      }
+    },
+    {
+      "name": "破伤风",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "牙关紧急",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "身体强直",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "角弓反张",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "玉真散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "破伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉真散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天南星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉真散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉真散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉真散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉真散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉真散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉真散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "祛风化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "破伤风",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "牙关紧急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "破伤风",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "身体强直",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "破伤风",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "角弓反张",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "name": "栀子柏皮汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "柏皮汤、柏皮散",
+        "usage": "为粗末。每服五钱，水二盏，煎至一盏，去滓温服。",
+        "indication": "伤寒，身黄发热，衄血，咯血。"
+      }
+    },
+    {
+      "name": "栀子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "《鸡峰普济方》",
+      "type": "Source"
+    },
+    {
+      "name": "《永乐大典》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "栀子柏皮汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《鸡峰普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "栀子柏皮汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《永乐大典》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "栀子柏皮汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栀子柏皮汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栀子柏皮汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    }
+  ]
+}

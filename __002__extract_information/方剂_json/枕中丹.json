@@ -1,0 +1,107 @@
+{
+  "entities": [
+    {
+      "name": "枕中丹",
+      "type": "Formula",
+      "attributes": {
+        "effect": "补阴阳，助心气，强志益智，去湿除痰，镇肝补肾，开心孔，利九窍",
+        "indication": "治健忘",
+        "usage": "食后服方寸匕，1日3次"
+      }
+    },
+    {
+      "name": "龟甲",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补肾"
+      }
+    },
+    {
+      "name": "龙骨",
+      "type": "Herb",
+      "attributes": {
+        "effect": "镇肝"
+      }
+    },
+    {
+      "name": "远志",
+      "type": "Herb",
+      "attributes": {
+        "effect": "苦泄热而辛散郁，通肾气，上达于心，强志益智"
+      }
+    },
+    {
+      "name": "石菖蒲",
+      "type": "Herb",
+      "attributes": {
+        "effect": "辛散肝而香舒脾，开心孔而利九窍，去湿除痰"
+      }
+    },
+    {
+      "name": "《医心方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《葛氏方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《医方集解》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "枕中丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医心方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "枕中丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《葛氏方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "枕中丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龟甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枕中丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枕中丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "远志",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枕中丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石菖蒲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枕中丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医方集解》",
+      "object_type": "Source"
+    }
+  ]
+}

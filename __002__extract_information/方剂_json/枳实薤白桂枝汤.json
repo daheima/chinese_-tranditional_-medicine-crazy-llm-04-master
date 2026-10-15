@@ -1,0 +1,169 @@
+{
+  "entities": [
+    {
+      "name": "枳实薤白桂枝汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "通阳散结，下气祛痰",
+        "indication": "胸痹。症见气结在胸，胸满而痛，心中痞气，气从胁下上逆抢心，舌苔白腻，脉沉弦或紧",
+        "usage": "上五味，以水五升，先煮枳实、厚朴，取二升，去滓，内诸药，煮数沸，分三次温服"
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g"
+      }
+    },
+    {
+      "name": "薤白",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g"
+      }
+    },
+    {
+      "name": "瓜蒌实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g"
+      }
+    },
+    {
+      "name": "胸痹",
+      "type": "Disease"
+    },
+    {
+      "name": "气结在胸",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸满而痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "心中痞气",
+      "type": "Symptom"
+    },
+    {
+      "name": "气从胁下上逆抢心",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌苔白腻",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉沉弦或紧",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "枳实薤白桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "通阳散结，下气祛痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枳实薤白桂枝汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胸痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳实薤白桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实薤白桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实薤白桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薤白",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实薤白桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实薤白桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瓜蒌实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "气结在胸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸满而痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "心中痞气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "气从胁下上逆抢心",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌苔白腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉沉弦或紧",
+      "object_type": "Symptom"
+    }
+  ]
+}

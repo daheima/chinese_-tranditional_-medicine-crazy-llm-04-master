@@ -1,0 +1,62 @@
+{
+  "entities": [
+    {
+      "name": "浙贝蛋",
+      "type": "Formula",
+      "attributes": {
+        "usage": "每日1～2次，每次1个，连用5～7天",
+        "effect": "止咳平喘",
+        "indication": "适用于小儿百日咳"
+      }
+    },
+    {
+      "name": "浙贝母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2～3克"
+      }
+    },
+    {
+      "name": "鸡蛋",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1个"
+      }
+    },
+    {
+      "name": "小儿百日咳",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "浙贝蛋",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "止咳平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "浙贝蛋",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "浙贝蛋",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "浙贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "浙贝蛋",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡蛋",
+      "object_type": "Herb"
+    }
+  ]
+}

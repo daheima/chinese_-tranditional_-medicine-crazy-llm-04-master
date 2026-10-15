@@ -1,0 +1,85 @@
+{
+  "entities": [
+    {
+      "name": "小半夏加茯苓汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "化饮降逆，引水下行",
+        "indication": "停饮呕吐，心下痞闷，头眩心悸",
+        "usage": "上药三味，以水700毫升，煮取300毫升，分两次温服"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小半夏加茯苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小半夏加茯苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小半夏加茯苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小半夏加茯苓汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "停饮呕吐",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小半夏加茯苓汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心下痞闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小半夏加茯苓汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头眩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小半夏加茯苓汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸",
+      "object_type": "Symptom"
+    }
+  ]
+}

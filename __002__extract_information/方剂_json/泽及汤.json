@@ -1,0 +1,41 @@
+{
+  "entities": [
+    {
+      "name": "泽及汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "水煎，冲酒服。取汗自消。"
+      }
+    },
+    {
+      "name": "泽兰叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "白及",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "泽及汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽兰叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽及汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白及",
+      "object_type": "Herb"
+    }
+  ]
+}

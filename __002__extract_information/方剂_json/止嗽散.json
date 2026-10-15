@@ -1,0 +1,220 @@
+{
+  "entities": [
+    {
+      "name": "止嗽散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "止嗽化痰，宣肺解表",
+        "indication": "外感咳嗽，症见咳而咽痒，咯痰不爽，或微有恶风发热，舌苔薄白，脉浮缓",
+        "taboo": "阴虚肺燥以致咳嗽或咯血者不宜使用；肺热咳喘须加贝母、知母、瓜蒌、黄芩之类，不宜单独使用；表邪重者非本方所宜",
+        "usage": "共研细末，每服9克，食后，临卧时开水调服，初感风寒者，用生姜汤调下"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb"
+    },
+    {
+      "name": "荆芥",
+      "type": "Herb"
+    },
+    {
+      "name": "紫菀",
+      "type": "Herb"
+    },
+    {
+      "name": "百部",
+      "type": "Herb"
+    },
+    {
+      "name": "白前",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb"
+    },
+    {
+      "name": "外感咳嗽",
+      "type": "Disease"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "咯痰不爽",
+      "type": "Symptom"
+    },
+    {
+      "name": "恶风发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌苔薄白",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉浮缓",
+      "type": "Symptom"
+    },
+    {
+      "name": "止嗽化痰",
+      "type": "Effect"
+    },
+    {
+      "name": "宣肺解表",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "止嗽散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "外感咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "外感咳嗽",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "外感咳嗽",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咽痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "外感咳嗽",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咯痰不爽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "外感咳嗽",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "恶风发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "外感咳嗽",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌苔薄白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "外感咳嗽",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉浮缓",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "止嗽散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "止嗽化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "止嗽散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "宣肺解表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "止嗽散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "止嗽散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "止嗽散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫菀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "止嗽散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "百部",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "止嗽散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白前",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "止嗽散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "止嗽散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桔梗",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "宣肺理气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "陈皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "宣肺理气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荆芥",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风解表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "调和诸药",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "entities": [
+    {
+      "name": "泻黄散",
+      "type": "Formula",
+      "attributes": {
+        "alias": "泻脾散",
+        "effect": "泻脾胃伏火",
+        "indication": "脾热弄舌、口疮口臭、烦渴易饥、口燥唇干、舌红脉数",
+        "taboo": "小儿先天不足，大脑发育不全之弄舌者禁用，阴虚有热者禁用",
+        "usage": "上药锉，同蜜、酒微炒香，为细末。每服一至二钱（3-6克），水一盏，煎至五分，温服清汁，无时。"
+      }
+    },
+    {
+      "name": "藿香叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "21克"
+      }
+    },
+    {
+      "name": "山桅仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克"
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120克"
+      }
+    },
+    {
+      "name": "清胃散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清胃凉血"
+      }
+    },
+    {
+      "name": "脾胃伏火证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "《小儿药证直诀》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "泻黄散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "藿香叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻黄散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山桅仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻黄散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻黄散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻黄散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻黄散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "泻脾胃伏火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "泻黄散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃伏火证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清胃凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "泻黄散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《小儿药证直诀》",
+      "object_type": "Source"
+    }
+  ]
+}

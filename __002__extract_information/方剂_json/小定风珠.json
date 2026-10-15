@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "name": "小定风珠",
+      "type": "Formula",
+      "attributes": {
+        "effect": "滋阴潜阳，熄风降逆",
+        "indication": "温邪久羁下焦，消烁肝肾阴液，虚火上冲，发为痉厥呃忒，脉细而劲者",
+        "usage": "上药用水一升，先煮龟版、淡菜，得400毫升，去滓，入阿胶，上火烊化，再入鸡子黄搅匀，冲入童便，顿服之"
+      }
+    },
+    {
+      "name": "鸡子黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "真阿胶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生龟版",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "童便",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "淡菜",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡子黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "真阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生龟版",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "童便",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "淡菜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴潜阳，熄风降逆",
+      "object_type": "Effect"
+    }
+  ]
+}

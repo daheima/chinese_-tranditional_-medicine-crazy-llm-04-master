@@ -1,0 +1,169 @@
+{
+  "entities": [
+    {
+      "name": "小活络丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "祛风除湿，化痰通络，活血止痛",
+        "indication": "风寒湿邪或痰湿瘀血留滞经络，气血不得宣通，营卫失其流畅",
+        "taboo": "本方药性温燥，适用于痹证偏于寒性者。以肢体筋脉挛痛，关节屈伸不利，舌淡紫苔白为证治要点。方中药力较峻烈，以体实气壮者为宜，对阴虚有热者及孕妇慎用",
+        "usage": "为细末，入研药和匀，酒面糊为丸，如梧桐子大，每服20丸，空心，日午冷酒送下，荆芥茶下亦得。现代用法：以上六味，粉碎成细粉，过筛，混匀，加炼蜜制成大蜜丸。每丸重3g。口服，用陈酒或温开水送服，一次1丸，一日2次"
+      }
+    },
+    {
+      "name": "川乌",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炮、去皮脐",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "草乌",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炮、去皮脐",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "地龙",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去土",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "天南星",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炮",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "乳香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "研",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "没药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "研",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小活络丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川乌",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小活络丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "草乌",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小活络丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地龙",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小活络丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天南星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小活络丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小活络丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小活络丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿，化痰通络，活血止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "小活络丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/小活络丹",
+      "object_type": "Source"
+    }
+  ]
+}

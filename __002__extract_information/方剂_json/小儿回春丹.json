@@ -1,0 +1,306 @@
+{
+  "entities": [
+    {
+      "name": "小儿回春丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "小儿急惊，痰热蒙蔽，发热烦躁，神昏惊厥，或反胃呕吐，夜啼吐乳，痰嗽哮喘，腹痛泄泻",
+        "taboo": null,
+        "usage": "上药为小丸，每丸重0.09克。周岁以下，每次1丸；一至二岁，每次2丸，每日二三次"
+      }
+    },
+    {
+      "name": "川贝母",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白豆蔻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "法半夏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "沉香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "天竺黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "僵蚕",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "全蝎",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "檀香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "牛黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "胆南星",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "钩藤",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "天麻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《敬修堂药说》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《敬修堂药说》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "法半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沉香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天竺黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "僵蚕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "全蝎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "檀香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胆南星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "钩藤",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿急惊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热烦躁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神昏惊厥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "反胃呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "夜啼吐乳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰嗽哮喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小儿回春丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛泄泻",
+      "object_type": "Symptom"
+    }
+  ]
+}

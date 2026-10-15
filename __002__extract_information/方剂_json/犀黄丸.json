@@ -1,0 +1,112 @@
+{
+  "entities": [
+    {
+      "name": "犀黄丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": "西黄丸",
+        "effect": "清热解毒，化痰散结，活血消肿，祛瘀止痛",
+        "indication": "乳岩、横痃、瘰疬、痰核、流注、肺痈、小肠痈。现用于淋巴结炎、乳腺囊性增生、乳腺癌、多发性脓肿、骨髓炎等见舌红、脉滑数者",
+        "usage": "上药，用黄米饭捣烂为丸。忌火烘，晒干。每用陈酒送下9克。患生上部，临卧时服，患生下部，空腹时服"
+      }
+    },
+    {
+      "name": "牛黄",
+      "type": "Herb",
+      "attributes": {
+        "aliases": "丑宝、西黄、犀黄",
+        "dosage": "0.9克",
+        "effect": "清热解毒，化痰散结"
+      }
+    },
+    {
+      "name": "乳香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "活血祛瘀，消肿定痛",
+        "processing": "去油"
+      }
+    },
+    {
+      "name": "没药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "活血祛瘀，消肿定痛",
+        "processing": "去油"
+      }
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克",
+        "effect": "开经络，行气滞，散瘀血，消痈疽肿毒"
+      }
+    },
+    {
+      "name": "黄米饭",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "调养胃气，以防诸药寒凉碍胃"
+      }
+    },
+    {
+      "name": "《外科全生集》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "犀黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "犀黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "犀黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "犀黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "犀黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄米饭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "犀黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，化痰散结，活血消肿，祛瘀止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "犀黄丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《外科全生集》",
+      "object_type": "Source"
+    }
+  ]
+}

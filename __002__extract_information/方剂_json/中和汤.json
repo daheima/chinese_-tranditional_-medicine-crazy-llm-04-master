@@ -1,0 +1,151 @@
+{
+  "entities": [
+    {
+      "name": "中和汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": "每用4钱，生姜7片，水煎，和滓服"
+      }
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1斤（米泔浸）"
+      }
+    },
+    {
+      "name": "川乌",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4两",
+        "processing": "炮"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4两",
+        "processing": "姜制"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4两"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4两"
+      }
+    },
+    {
+      "name": "草果",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "伤寒温疫",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "头目昏痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "鼻流清涕",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "中和汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒温疫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "中和汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头目昏痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中和汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中和汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻流清涕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "中和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川乌",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "中和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "中和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "中和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "中和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "草果",
+      "object_type": "Herb"
+    }
+  ]
+}

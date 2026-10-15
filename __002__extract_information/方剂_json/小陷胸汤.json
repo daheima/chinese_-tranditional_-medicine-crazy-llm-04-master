@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "name": "小陷胸汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热化痰，宽胸散结",
+        "indication": "痰热互结证。胸脘痞闷，按之则痛，或咳痰黄稠，舌苔黄腻，脉滑数。",
+        "usage": "黄连6g  半夏12g  瓜蒌实20g"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g"
+      }
+    },
+    {
+      "name": "瓜蒌实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小陷胸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小陷胸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小陷胸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瓜蒌实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小陷胸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热化痰，宽胸散结",
+      "object_type": "Effect"
+    }
+  ]
+}

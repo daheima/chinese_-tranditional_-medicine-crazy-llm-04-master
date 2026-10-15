@@ -1,0 +1,220 @@
+{
+  "entities": [
+    {
+      "name": "增液承气汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋阴清热，增液通便，软坚润燥，泄热通便",
+        "indication": "热结阴亏证。燥屎不行，下之不通，脘腹胀满，口干唇燥，舌红苔黄，脉细数",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "玄参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "effect": "滋阴泄热通便",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g",
+        "effect": "滋阴生津",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "生地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g",
+        "effect": "滋阴生津",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": "软坚润燥，泄热通便",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "芒硝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5g",
+        "effect": "软坚润燥，泄热通便",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "增液汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋阴清热，增液通便",
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "增液承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增液承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增液承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增液承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增液承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芒硝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增液承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴清热，增液通便，软坚润燥，泄热通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "增液承气汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "热结阴亏证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玄参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴泄热通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麦冬",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "生地",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "软坚润燥，泄热通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芒硝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "软坚润燥，泄热通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "增液汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增液汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增液汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增液汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴清热，增液通便",
+      "object_type": "Effect"
+    }
+  ]
+}

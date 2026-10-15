@@ -1,0 +1,209 @@
+{
+  "entities": [
+    {
+      "name": "左归饮",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "纯甘壮水之品滋阴填精",
+        "indication": "真阴不足证。腰酸遗泄，盗汗，口燥咽干，口渴欲饮，舌尖红，脉细数",
+        "taboo": null,
+        "usage": "以水二盅，煎至七分，食远服"
+      }
+    },
+    {
+      "name": "肾阴不足",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "真阴不足证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "腰酸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "遗泄",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "盗汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口燥咽干",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口渴欲饮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌尖红",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉细数",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "熟地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "枸杞",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5g"
+      }
+    },
+    {
+      "name": "山茱萸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "左归饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "左归饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "左归饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枸杞",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "左归饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "左归饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "左归饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山茱萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "左归饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾阴不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "左归饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "真阴不足证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "真阴不足证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腰酸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "真阴不足证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "遗泄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "真阴不足证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "真阴不足证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "口燥咽干",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "真阴不足证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "口渴欲饮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "真阴不足证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌尖红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "真阴不足证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉细数",
+      "object_type": "Symptom"
+    }
+  ]
+}

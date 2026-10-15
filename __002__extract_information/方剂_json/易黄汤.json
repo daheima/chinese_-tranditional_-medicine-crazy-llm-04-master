@@ -1,0 +1,133 @@
+{
+  "entities": [
+    {
+      "name": "易黄汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "固肾清热，祛湿止带",
+        "indication": "宫颈炎、阴道炎等属肾虚湿热下注者",
+        "alias": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克(炒)",
+        "effect": "补脾益肾，固涩止带"
+      }
+    },
+    {
+      "name": "芡实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克(炒)",
+        "effect": "补脾益肾，固涩止带"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克(盐水炒)",
+        "effect": "清热燥湿"
+      }
+    },
+    {
+      "name": "车前子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克(酒炒)",
+        "effect": "清热利湿"
+      }
+    },
+    {
+      "name": "白果",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10枚(12克)(碎)",
+        "effect": "收涩止带，兼除湿热"
+      }
+    },
+    {
+      "name": "肾虚",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "黄带",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "宫颈炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "阴道炎",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "易黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "易黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芡实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "易黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "易黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "车前子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "易黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白果",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "易黄汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "宫颈炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "易黄汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴道炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肾虚",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "黄带",
+      "object_type": "Symptom"
+    }
+  ]
+}

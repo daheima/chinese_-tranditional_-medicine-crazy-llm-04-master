@@ -1,0 +1,220 @@
+{
+  "entities": [
+    {
+      "name": "枳实导滞丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "通腑导滞、清热利湿",
+        "indication": "痢疾，脘腹痞闷，腹痛，大便窘迫，小便黄赤涩少，或大便不通，舌苔黄腻，脉沉有力",
+        "usage": "共研细末，蒸饼，用神曲煮糊为丸，如梧桐子大，每服9克，开水送下"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "十两"
+      }
+    },
+    {
+      "name": "神曲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五钱",
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五钱",
+        "processing": "麦炒"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三钱",
+        "processing": "酒炒"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三钱",
+        "processing": "酒炒"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三钱",
+        "processing": "土炒"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三钱"
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二钱"
+      }
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "脘腹痞闷",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "大便窘迫",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便黄赤涩少",
+      "type": "Symptom"
+    },
+    {
+      "name": "大便不通",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌苔黄腻",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉沉有力",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "枳实导滞丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳实导滞丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹痞闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实导滞丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实导滞丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便窘迫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实导滞丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便黄赤涩少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实导滞丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实导滞丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌苔黄腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实导滞丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉沉有力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实导滞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实导滞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "神曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实导滞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实导滞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实导滞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实导滞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实导滞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实导滞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    }
+  ]
+}

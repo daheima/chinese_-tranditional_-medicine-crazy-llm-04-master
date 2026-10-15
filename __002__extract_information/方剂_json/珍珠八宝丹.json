@@ -1,0 +1,196 @@
+{
+  "entities": [
+    {
+      "name": "珍珠八宝丹",
+      "type": "Formula",
+      "attributes": {
+        "effect": "止血定痛，生肌长肉",
+        "indication": "金疮、刀疮，跌扑损伤，或一切疮毒，久不收口"
+      }
+    },
+    {
+      "name": "珍珠",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "象皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "乳香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "没药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "鸡内金",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "生龙骨",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "赤石脂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "血竭",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g"
+      }
+    },
+    {
+      "name": "轻粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g"
+      }
+    },
+    {
+      "name": "铅粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "辰砂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "珍珠八宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "止血定痛，生肌长肉",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "珍珠八宝丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "金疮、刀疮，跌扑损伤，或一切疮毒，久不收口",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠八宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "珍珠",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠八宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "象皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠八宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠八宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠八宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠八宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡内金",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠八宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠八宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤石脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠八宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "血竭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠八宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "轻粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠八宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "铅粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠八宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "辰砂",
+      "object_type": "Herb"
+    }
+  ]
+}

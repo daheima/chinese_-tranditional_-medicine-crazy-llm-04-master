@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "皂刺大黄汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "治小儿脏毒便血初起，肛门肿痛者",
+        "indication": null,
+        "taboo": null,
+        "usage": "用水、酒煎服。量小儿年岁大小，体质虚实，增减用量"
+      }
+    }
+  ],
+  "relations": []
+}

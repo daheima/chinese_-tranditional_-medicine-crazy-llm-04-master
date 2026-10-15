@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {
+      "name": "当归四逆加吴茱萸生姜汤",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "桂枝去芍药加蜀漆牡蛎龙骨救逆汤",
+      "type": "Formula",
+      "attributes": null
+    }
+  ],
+  "relations": []
+}

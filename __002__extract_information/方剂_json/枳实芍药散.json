@@ -1,0 +1,89 @@
+{
+  "entities": [
+    {
+      "name": "枳实芍药散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "行气散瘀，和血止痛",
+        "indication": "产后腹痛，烦满不得卧；痈肿",
+        "taboo": null,
+        "usage": "上二味，杵为散。每服3克，一日三次，以麦粥下之"
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "产后腹痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "烦满不得卧",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痈肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《金匮要略本义》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "枳实芍药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实芍药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实芍药散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实芍药散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦满不得卧",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实芍药散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实芍药散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略本义》",
+      "object_type": "Source"
+    }
+  ]
+}

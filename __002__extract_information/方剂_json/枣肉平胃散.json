@@ -1,0 +1,226 @@
+{
+  "entities": [
+    {
+      "name": "枣肉平胃散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "调气暖胃，化宿食，消痰饮，辟风、寒、冷、湿四时非节之气",
+        "indication": "脾胃不和，不思饮食，心腹、胁肋胀满刺痛，口苦无味，胸满短气，呕哕恶心，噫气吞酸，面色萎黄，肌体瘦弱，怠惰嗜卧，体重节痛，常多自利，或发霍乱；及五噎八痞，膈气反胃",
+        "usage": "每服二钱，用盐汤点，空心，食前"
+      }
+    },
+    {
+      "name": "陈橘皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "红枣",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《宋·太平惠民和剂局方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈橘皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《宋·太平惠民和剂局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不思饮食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心腹、胁肋胀满刺痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口苦无味",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸满短气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕哕恶心",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "噫气吞酸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面色萎黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肌体瘦弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "怠惰嗜卧",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "体重节痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "常多自利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "霍乱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "五噎八痞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "膈气反胃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "调气暖胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "化宿食",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "消痰饮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枣肉平胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "辟风、寒、冷、湿四时非节之气",
+      "object_type": "Effect"
+    }
+  ]
+}

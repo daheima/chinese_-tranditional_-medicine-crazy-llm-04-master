@@ -1,0 +1,307 @@
+{
+  "entities": [
+    {
+      "name": "枳实消痞丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "行气消痞，下气除满，清热燥湿，温中祛寒，消食和胃，补中健脾，祛湿和中",
+        "indication": "脾虚气滞，寒热互结证。心下痞满，不欲饮食，倦怠乏力，大便失调",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "温",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "麦芽曲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "半夏曲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "辛温",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "辛苦性温",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "苦寒",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "脾虚气滞，寒热互结证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "心下痞满",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "不欲饮食",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "倦怠乏力",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "大便失调",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "枳实消痞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实消痞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实消痞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦芽曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实消痞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实消痞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实消痞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实消痞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实消痞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实消痞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实消痞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳实消痞丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚气滞，寒热互结证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "脾虚气滞，寒热互结证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "心下痞满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾虚气滞，寒热互结证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "不欲饮食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾虚气滞，寒热互结证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "倦怠乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾虚气滞，寒热互结证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "大便失调",
+      "object_type": "Symptom"
+    }
+  ]
+}

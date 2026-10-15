@@ -1,0 +1,167 @@
+{
+  "entities": [
+    {
+      "name": "正柴胡饮",
+      "type": "Formula",
+      "attributes": {
+        "effect": "解表散寒，轻疏肌表",
+        "indication": "外感风寒轻证。微恶风寒，发热，无汗，头痛身痛，舌苔薄白，脉浮。",
+        "usage": "水一盅半，煎七八分，热服（现代用法：水煎温服）"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三五片"
+      }
+    },
+    {
+      "name": "zhongyibaike.com",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "正柴胡饮",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "zhongyibaike.com",
+      "object_type": "Source"
+    },
+    {
+      "subject": "正柴胡饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "正柴胡饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "正柴胡饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "正柴胡饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "正柴胡饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "正柴胡饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "正柴胡饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "外感风寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "正柴胡饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "微恶风寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "正柴胡饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "正柴胡饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "无汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "正柴胡饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛身痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "正柴胡饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "苔薄白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "正柴胡饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉浮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "正柴胡饮",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "解表散寒",
+      "object_type": "Effect"
+    }
+  ]
+}

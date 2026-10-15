@@ -1,0 +1,203 @@
+{
+  "entities": [
+    {
+      "name": "小蓟饮子",
+      "type": "Formula",
+      "attributes": {
+        "effect": "凉血止血，利尿通淋",
+        "indication": "血淋证（下焦热结），小便赤涩热痛、舌红脉数"
+      }
+    },
+    {
+      "name": "生地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24克"
+      }
+    },
+    {
+      "name": "小蓟",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "滑石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "木通",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "淡竹叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "炒蒲黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "藕节",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "栀子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "琥珀",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "海金砂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "石苇",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "血淋证",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小蓟饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小蓟饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "小蓟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小蓟饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小蓟饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木通",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小蓟饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "淡竹叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小蓟饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炒蒲黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小蓟饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "藕节",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小蓟饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小蓟饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小蓟饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小蓟饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血，利尿通淋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "小蓟饮子",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "血淋证",
+      "object_type": "Disease"
+    }
+  ]
+}

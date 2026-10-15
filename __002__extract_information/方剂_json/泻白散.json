@@ -1,0 +1,176 @@
+{
+  "entities": [
+    {
+      "name": "泻白散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清泻肺热，宽气进食，止咳平喘",
+        "indication": "肺热喘咳证。气喘咳嗽，皮肤蒸热，日哺尤甚，舌红苔黄，脉细数。",
+        "taboo": "风寒咳嗽或肺虚喘咳者不宜使用",
+        "usage": "上药锉散，入粳米一撮，水二小盏，煎七分，食前服（现代用法：水煎服）"
+      }
+    },
+    {
+      "name": "地骨皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "桑白皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "粳米",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "肺热喘咳证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "气喘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "皮肤蒸热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小儿麻疹初期",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肺炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "支气管炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "《小儿药证直诀》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "泻白散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《小儿药证直诀》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "泻白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地骨皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桑白皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "粳米",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻白散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清泻肺热，宽气进食，止咳平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "泻白散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺热喘咳证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "泻白散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿麻疹初期",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "泻白散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "泻白散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "泻白散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泻白散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泻白散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤蒸热",
+      "object_type": "Symptom"
+    }
+  ]
+}

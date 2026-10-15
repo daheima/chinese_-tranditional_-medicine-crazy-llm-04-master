@@ -1,0 +1,119 @@
+{
+  "entities": [
+    {
+      "name": "珍珀活命丹",
+      "type": "Formula",
+      "attributes": {
+        "usage": "每服1.5克，空腹时用温开水送下",
+        "indication": "单腹胀（四肢不肿而腹大如鼓的病症，即鼓胀）"
+      }
+    },
+    {
+      "name": "牛黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "琥珀",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "珍珠",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "蟾酥",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "蝼蝈",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "7个"
+      }
+    },
+    {
+      "name": "地鳖虫",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "7个"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "珍珀活命丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珀活命丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "琥珀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珀活命丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "珍珠",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珀活命丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蟾酥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珀活命丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珀活命丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蝼蝈",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珀活命丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地鳖虫",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珀活命丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "鼓胀",
+      "object_type": "Disease"
+    }
+  ]
+}

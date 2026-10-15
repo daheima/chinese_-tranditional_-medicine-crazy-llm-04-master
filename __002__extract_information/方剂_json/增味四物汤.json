@@ -1,0 +1,141 @@
+{
+  "entities": [
+    {
+      "name": "增味四物汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "妇人血积，小腹积块，遇寒剧痛不可忍",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "三棱",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "广茂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "干漆",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "增味四物汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/增味四物汤",
+      "object_type": "Source"
+    },
+    {
+      "subject": "增味四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增味四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增味四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增味四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增味四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "三棱",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增味四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "广茂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增味四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增味四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干漆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增味四物汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人血积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "妇人血积",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "小腹积块",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "妇人血积",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "剧痛不可忍",
+      "object_type": "Symptom"
+    }
+  ]
+}

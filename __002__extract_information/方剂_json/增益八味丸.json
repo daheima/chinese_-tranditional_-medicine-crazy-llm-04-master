@@ -1,0 +1,203 @@
+{
+  "entities": [
+    {
+      "name": "增益八味丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋肾补肝，壮阳益精，强筋壮骨",
+        "indication": "男子肝肾两虚，阳衰精亏所产生的堵证",
+        "taboo": null,
+        "usage": "每服50丸，空腹时用温酒或盐汤送下"
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120克",
+        "processing": "酒洒九蒸，晒干称"
+      }
+    },
+    {
+      "name": "鹿茸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120克",
+        "processing": "去毛，炙"
+      }
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120克"
+      }
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "processing": "大块者，酒浸一宿"
+      }
+    },
+    {
+      "name": "山茱萸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "processing": "去核"
+      }
+    },
+    {
+      "name": "大附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "炮"
+      }
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "processing": "酒浸一宿"
+      }
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "45克"
+      }
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "45克",
+        "processing": "去骨"
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "45克",
+        "processing": "酒浸一宿"
+      }
+    },
+    {
+      "name": "鹿角胶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "250克"
+      }
+    },
+    {
+      "name": "滋肾补肝，壮阳益精，强筋壮骨",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "肝肾两虚，阳衰精亏",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "增益八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增益八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鹿茸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增益八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增益八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增益八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山茱萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增益八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增益八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增益八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增益八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增益八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增益八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鹿角胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增益八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋肾补肝，壮阳益精，强筋壮骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "增益八味丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝肾两虚，阳衰精亏",
+      "object_type": "Disease"
+    }
+  ]
+}

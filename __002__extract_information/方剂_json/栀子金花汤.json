@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "name": "栀子金花汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热泻火",
+        "indication": "热毒内蕴；妊娠伤寒，发热大渴者",
+        "usage": "上以麻沸汤2升渍渍，须臾绞去滓，分2次温服"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱"
+      }
+    },
+    {
+      "name": "栀子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "栀子金花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栀子金花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栀子金花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栀子金花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栀子金花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热泻火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "栀子金花汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "热毒内蕴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "栀子金花汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妊娠伤寒",
+      "object_type": "Disease"
+    }
+  ]
+}

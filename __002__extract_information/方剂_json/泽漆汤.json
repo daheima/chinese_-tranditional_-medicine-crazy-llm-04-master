@@ -1,0 +1,153 @@
+{
+  "entities": [
+    {
+      "name": "泽漆汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "逐水消饮止咳，兼微清热",
+        "usage": "上药九味，哎咀。纳泽漆汁中，煮取400毫升，温服100毫升，至夜服尽"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "紫菀",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "泽漆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克(以东流水2升，煮取800毫升)"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "白前",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "水饮内停",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "泽漆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫菀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽漆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白前",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泽漆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "逐水消饮止咳，兼微清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "泽漆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "水饮内停",
+      "object_type": "Disease"
+    }
+  ]
+}

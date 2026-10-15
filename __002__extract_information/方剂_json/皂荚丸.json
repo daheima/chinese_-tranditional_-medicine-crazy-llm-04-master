@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {
+      "name": "皂荚丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": "皂角丸(《医方集解》)",
+        "effect": "涤痰除浊",
+        "indication": "痰浊壅肺，咳逆上气，时时吐浊，不能平卧，咳嗽气喘，舌苔多厚腻",
+        "usage": "上一味，研末，蜜和为丸，如梧桐子大。以枣膏和汤服3丸，日三夜一服"
+      }
+    },
+    {
+      "name": "皂荚",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": []
+}

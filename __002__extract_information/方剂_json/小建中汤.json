@@ -1,0 +1,474 @@
+{
+  "entities": [
+    {
+      "name": "小建中汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "温中补虚，缓急止痛",
+        "indication": "腹中拘急疼痛、喜温喜按、神疲乏力、虚怯少气、心中悸动、虚烦不宁、面色无华、四肢酸楚、手足烦热、咽干口燥、舌淡苔白、脉细弦",
+        "taboo": "呕吐或中满者不宜使用；阴虚火旺之胃院疼痛忌用",
+        "usage": "上六味，以水七升，煮取三升，去渣，内饴，更上微火消解。温服一升，日三服（现代用法：水煎取汁，兑入饴糖，文火加热溶化，分两次温服）"
+      }
+    },
+    {
+      "name": "饴糖",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "甘温质润",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "辛温",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "酸甘",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6枚",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "中焦虚寒，肝脾不和证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胃及十二指肠溃疡",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性肝炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性胃炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "神经衰弱",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "再生障碍性贫血",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "功能性发热",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "腹中拘急疼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "喜温喜按",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "神疲乏力",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "虚怯少气",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心中悸动",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "虚烦不宁",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "面色无华",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "四肢酸楚",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "手足烦热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽干口燥",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌淡苔白",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉细弦",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温中补虚，缓急止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "中焦虚寒，肝脾不和证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胃及十二指肠溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性胃炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "神经衰弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "再生障碍性贫血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "功能性发热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹中拘急疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喜温喜按",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神疲乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚怯少气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心中悸动",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚烦不宁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面色无华",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢酸楚",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手足烦热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽干口燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌淡苔白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉细弦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "饴糖",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "中焦虚寒，肝脾不和证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腹中拘急疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中焦虚寒，肝脾不和证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "喜温喜按",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中焦虚寒，肝脾不和证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "神疲乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中焦虚寒，肝脾不和证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "虚怯少气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中焦虚寒，肝脾不和证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "心中悸动",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中焦虚寒，肝脾不和证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "虚烦不宁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中焦虚寒，肝脾不和证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "面色无华",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中焦虚寒，肝脾不和证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "四肢酸楚",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中焦虚寒，肝脾不和证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "手足烦热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中焦虚寒，肝脾不和证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咽干口燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中焦虚寒，肝脾不和证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌淡苔白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中焦虚寒，肝脾不和证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉细弦",
+      "object_type": "Symptom"
+    }
+  ]
+}

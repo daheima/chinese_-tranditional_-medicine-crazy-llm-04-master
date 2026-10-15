@@ -1,0 +1,50 @@
+{
+  "entities": [
+    {
+      "name": "泽肤膏",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋阴养血，润肺止嗽",
+        "indication": "皮肤枯燥如鱼鳞；肺燥咳嗽",
+        "taboo": null,
+        "usage": "每次3匙，空腹时用热酒或蜜汤调服"
+      }
+    },
+    {
+      "name": "《证治准绳·类方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "泽肤膏",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《证治准绳·类方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "泽肤膏",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴养血，润肺止嗽",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "泽肤膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺燥咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "泽肤膏",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤枯燥如鱼鳞",
+      "object_type": "Symptom"
+    }
+  ]
+}

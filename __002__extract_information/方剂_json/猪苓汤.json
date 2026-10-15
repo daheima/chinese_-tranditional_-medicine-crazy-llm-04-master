@@ -1,0 +1,160 @@
+{
+  "entities": [
+    {
+      "name": "猪苓汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "利水养阴清热",
+        "indication": "水热互结证。小便不利，发热，口渴欲饮，或心烦不寐，或兼有咳嗽，呕恶，下利等，舌红苔白或微黄，脉细数者",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "猪苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": "淡渗利湿",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": "淡渗利湿",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": "淡渗利湿",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "阿胶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "滑石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猪苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猪苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猪苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猪苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猪苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猪苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "利水养阴清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪苓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "淡渗利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "淡渗利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "泽泻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "淡渗利湿",
+      "object_type": "Effect"
+    }
+  ]
+}

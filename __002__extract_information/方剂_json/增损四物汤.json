@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "name": "增损四物汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "治妇人气血不足，四肢怠惰，乏力少气。兼治产后下血过多，荣卫虚损，阴阳不和，乍寒乍热",
+        "indication": null,
+        "taboo": null,
+        "usage": "每服四钱，水一盏，煎至六分，去滓，热服"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb"
+    },
+    {
+      "name": "川芎",
+      "type": "Herb"
+    },
+    {
+      "name": "人参",
+      "type": "Herb"
+    },
+    {
+      "name": "干姜",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "白芍药",
+      "type": "Herb"
+    },
+    {
+      "name": "《宋•太平惠民和剂局方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "增损四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损四物汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《宋•太平惠民和剂局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "增损四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "治妇人气血不足，四肢怠惰，乏力少气。兼治产后下血过多，荣卫虚损，阴阳不和，乍寒乍热",
+      "object_type": "Effect"
+    }
+  ]
+}

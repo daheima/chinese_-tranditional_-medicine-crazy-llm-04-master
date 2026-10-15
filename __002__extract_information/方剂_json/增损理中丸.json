@@ -1,0 +1,178 @@
+{
+  "entities": [
+    {
+      "name": "增损理中丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": "枳实理中丸、加减理中丸",
+        "effect": null,
+        "indication": "心中结满，两胁痞塞，胸中气急，厥逆欲绝，心胸高起，手不得近",
+        "taboo": null,
+        "usage": "上药研末，以蜜和为丸，如弹子大"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克（炙）"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "45克（炮）"
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4枚"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "心中结满",
+      "type": "Symptom"
+    },
+    {
+      "name": "两胁痞塞",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸中气急",
+      "type": "Symptom"
+    },
+    {
+      "name": "厥逆欲绝",
+      "type": "Symptom"
+    },
+    {
+      "name": "心胸高起",
+      "type": "Symptom"
+    },
+    {
+      "name": "手不得近",
+      "type": "Symptom"
+    },
+    {
+      "name": "《外台秘要》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "增损理中丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《外台秘要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "增损理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增损理中丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心中结满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "增损理中丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "两胁痞塞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "增损理中丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸中气急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "增损理中丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "厥逆欲绝",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "增损理中丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心胸高起",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "增损理中丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手不得近",
+      "object_type": "Symptom"
+    }
+  ]
+}

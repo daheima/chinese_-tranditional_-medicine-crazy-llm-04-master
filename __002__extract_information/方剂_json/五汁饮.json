@@ -1,0 +1,153 @@
+{
+  "entities": [
+    {
+      "name": "五汁饮",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "生津止渴，清热解暑",
+        "indication": "肺胃有热烦渴，或肺燥干咳",
+        "taboo": null,
+        "usage": "将上述五物分别绞碎如泥，用布拧汁或榨挤汁。麦门冬及芦根不易挤汁，可在绞碎后加等量凉开水，浸润30分钟后再挤汁。将五汁混合均匀后即可饮用。"
+      }
+    },
+    {
+      "name": "梨",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "荸荠",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "藕",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "麦门冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "500克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "鲜芦根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "五汁饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "梨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五汁饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荸荠",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五汁饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "藕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五汁饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦门冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五汁饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鲜芦根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五汁饮",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "生津止渴，清热解暑",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "五汁饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五汁饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "干咳",
+      "object_type": "Symptom"
+    }
+  ]
+}

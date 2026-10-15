@@ -1,0 +1,138 @@
+{
+  "entities": [
+    {
+      "name": "下瘀血汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "以酒200毫升，煎1丸，取160毫升，顿服之。",
+        "indication": "治产妇瘀阻腹痛，及瘀血阻滞，经水不利，腹中症块等。",
+        "alias": null,
+        "effect": null,
+        "taboo": null
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20枚",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "蟅虫",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20枚",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "熬，去足",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "《金匮玉函经二注》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《金匮要略心典》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "下瘀血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "下瘀血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "下瘀血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蟅虫",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "下瘀血汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "瘀阻腹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "下瘀血汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "瘀血阻滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "下瘀血汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "经水不利",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "下瘀血汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "腹中症块",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "下瘀血汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮玉函经二注》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "下瘀血汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略心典》",
+      "object_type": "Source"
+    }
+  ]
+}

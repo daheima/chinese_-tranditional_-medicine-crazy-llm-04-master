@@ -1,0 +1,138 @@
+{
+  "entities": [
+    {
+      "name": "增补省风汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "中风口眼歪僻，痰涎壅盛"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克(姜制)"
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "全蝎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克(去翅、足)"
+      }
+    },
+    {
+      "name": "胆星",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "生白附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "生川乌",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克",
+        "processing": "不见火"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "增补省风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增补省风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增补省风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "全蝎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增补省风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胆星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增补省风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增补省风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生白附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增补省风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生川乌",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增补省风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增补省风汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "中风口眼歪僻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "增补省风汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰涎壅盛",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "entities": [
+    {
+      "name": "小金丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "流注、痰核、瘰疬、乳岩、横痃、贴骨疽、鳝拱头等",
+        "taboo": null,
+        "usage": "每日取药一粒，研碎，浸化在一小杯酒中，1-2小时后陈酒送下，欲醉为好。其后盖被睡卧，以求汗出。病重而久者，可早晚各用一粒。其病在身体上部者易晚睡前用之；其病在体下部者易空腹用之。另外，其药丸可捣碎同时外用。"
+      }
+    },
+    {
+      "name": "白胶香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "草乌",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "45克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "五灵脂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "45克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "地龙",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "45克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "制木鳖",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "45克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "制没药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "制乳香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "当归身",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "陈墨",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "《外科症治全生集》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小金丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《外科症治全生集》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "小金丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白胶香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小金丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "草乌",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小金丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五灵脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小金丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地龙",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小金丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "制木鳖",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小金丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "制没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小金丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "制乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小金丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归身",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小金丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小金丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈墨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小金丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "流注",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小金丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痰核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小金丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小金丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "乳岩",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小金丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "横痃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小金丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "贴骨疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小金丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "鳝拱头",
+      "object_type": "Disease"
+    }
+  ]
+}

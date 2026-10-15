@@ -1,0 +1,168 @@
+{
+  "entities": [
+    {
+      "name": "养阴止血汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "养阴止血，固摄冲任",
+        "indication": "崩漏属于阴虚血热者",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "生地",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生白芍",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "玄参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "石斛",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "地骨皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "煅牡蛎",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "花蕊石",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "陈棕炭",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "侧柏叶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "藕节炭",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "崩漏",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "养阴止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "养阴止血，固摄冲任",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "养阴止血汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "养阴止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "养阴止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "养阴止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "养阴止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "养阴止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石斛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "养阴止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地骨皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "养阴止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "煅牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "养阴止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "花蕊石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "养阴止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈棕炭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "养阴止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "侧柏叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "养阴止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "藕节炭",
+      "object_type": "Herb"
+    }
+  ]
+}

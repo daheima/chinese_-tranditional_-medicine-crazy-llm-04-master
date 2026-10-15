@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "name": "泻心汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "大黄黄连泻心汤、三黄汤、三黄泻心汤",
+        "effect": "泻火解毒，清热燥湿",
+        "indication": "邪火内炽，迫血妄行，吐血，衄血，便秘溲赤；或湿热内蕴而成黄疸，胸痞烦热；三焦积热，眼目赤肿，口舌生疮，外证疮疡，心胸烦闷，大便秘绪；湿热黄疸，胸中烦热痞满，舌苔黄腻，脉数实者。",
+        "usage": "上药三味，以水800毫升，煮取250毫升，顿服之。"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泻心汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "泻心汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泻心汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泻心汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泻心汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "溲赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泻心汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸痞烦热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泻心汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眼目赤肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泻心汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口舌生疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泻心汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心胸烦闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泻心汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痞满",
+      "object_type": "Symptom"
+    }
+  ]
+}

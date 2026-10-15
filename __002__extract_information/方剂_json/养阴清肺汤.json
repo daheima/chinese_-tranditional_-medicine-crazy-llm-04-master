@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "name": "养阴清肺汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "白喉",
+        "taboo": null,
+        "usage": "大生地2钱，麦冬1钱2分，生甘草5分，玄参1钱半，贝母8分（去心），丹皮8分，薄荷5分，炒白芍8分。如有内热及发热，不必投表药，照方服去，其热自除。质虚，加大熟地，或生地、熟地并用；热甚，加连翘，去白芍；燥甚，加天冬、茯苓。"
+      }
+    },
+    {
+      "name": "白喉",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "喉间起白如腐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "鼻干唇燥",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "养阴清肺汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "白喉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白喉",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "喉间起白如腐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白喉",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白喉",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "鼻干唇燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白喉",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

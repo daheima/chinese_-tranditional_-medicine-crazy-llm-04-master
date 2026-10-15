@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "name": "戊己丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "肝脾不和证。胃痛吞酸，腹痛泄泻。",
+        "taboo": null,
+        "usage": "为末，面糊为丸，如梧桐子大。每服二十丸（6克），浓煎米饮下，空心日三服。（现代用法：亦可作汤剂，水煎服）"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "吴茱萸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "肝脾不和证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胃痛吞酸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腹痛泄泻",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "戊己丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "戊己丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "吴茱萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "戊己丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "戊己丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝脾不和证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肝脾不和证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胃痛吞酸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝脾不和证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腹痛泄泻",
+      "object_type": "Symptom"
+    }
+  ]
+}

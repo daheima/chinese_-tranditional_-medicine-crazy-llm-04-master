@@ -1,0 +1,330 @@
+{
+  "entities": [
+    {
+      "name": "仙方活命饮",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热解毒，消肿溃坚，活血止痛",
+        "indication": "疮疡肿毒初起而属阳证者；红肿灼痛，或身热凛寒，苔薄白或黄，脉数有力",
+        "taboo": "痈肿已溃不可用；阴证疮疡忌用；脾胃本虚、气血不足者慎用",
+        "usage": "用酒一大碗，煎五七沸服（现代用法：水煎服，或水酒各半煎服）"
+      }
+    },
+    {
+      "name": "白芷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "贝母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "赤芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "当归尾",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "甘草节",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "皂角刺",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "穿山甲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "天花粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "乳香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "没药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "金银花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "疮疡肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "阳证",
+      "type": "Symptom"
+    },
+    {
+      "name": "红肿灼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "身热凛寒",
+      "type": "Symptom"
+    },
+    {
+      "name": "苔薄白或黄",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉数有力",
+      "type": "Symptom"
+    },
+    {
+      "name": "脓疱疮",
+      "type": "Disease"
+    },
+    {
+      "name": "疖肿",
+      "type": "Disease"
+    },
+    {
+      "name": "蜂窝织炎",
+      "type": "Disease"
+    },
+    {
+      "name": "乳腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "化脓性扁桃体炎",
+      "type": "Disease"
+    },
+    {
+      "name": "深部脓肿",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归尾",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草节",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "皂角刺",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "穿山甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天花粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "金银花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "疮疡肿毒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "阳证",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "疮疡肿毒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "红肿灼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "疮疡肿毒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "身热凛寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "疮疡肿毒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "苔薄白或黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "疮疡肿毒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉数有力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脓疱疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "疖肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "蜂窝织炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "乳腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "化脓性扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "仙方活命饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "深部脓肿",
+      "object_type": "Disease"
+    }
+  ]
+}

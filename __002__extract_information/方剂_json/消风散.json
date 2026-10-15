@@ -1,0 +1,326 @@
+{
+  "entities": [
+    {
+      "name": "消风散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "疏风清热，除湿止痒",
+        "indication": "风疹，湿疹。皮肤疹出色红，或遍身云片斑点，瘙痒，抓破后渗出津水，苔白或黄，脉浮数",
+        "taboo": "服药期间不宜食辛辣、鱼腥、烟酒、浓茶等，以免影响疗效",
+        "usage": "水二盅，煎至八分，食远服。现代用法：水煎，空腹服"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "生地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "蝉蜕",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "苦参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "胡麻仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "荆芥",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "牛蒡子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五分"
+      }
+    },
+    {
+      "name": "木通",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五分"
+      }
+    },
+    {
+      "name": "风疹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "皮肤瘙痒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疹出色红",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "遍身云片斑点",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "荨麻疹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "过敏性皮炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "稻田性皮炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "药物性皮炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "神经性皮炎",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蝉蜕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苦参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胡麻仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛蒡子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木通",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疹出色红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遍身云片斑点",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "荨麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "过敏性皮炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "稻田性皮炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "药物性皮炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "神经性皮炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "消风散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/消风散",
+      "object_type": "Source"
+    }
+  ]
+}
